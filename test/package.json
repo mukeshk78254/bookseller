@@ -1,0 +1,14 @@
+{
+  "name": "jira-seller-api-tests",
+  "version": "1.0.0",
+  "description": "Test suite for Jira Seller API",
+  "scripts": {
+    "test": "jest --detectOpenHandles --forceExit",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "devDependencies": {
+    "jest": "^29.6.2",
+    "supertest": "^6.3.3"
+  }
+}
